@@ -1,8 +1,26 @@
 aid: fay
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fay.png
 name: Fay
-description: 'Fay is a company surfaced as a portfolio company of forerunner-ventures, general-catalyst
-  and added to the API Evangelist network as a stub for enrichment. Sector: health. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Fay (Fay Health, Inc.) is a digital-health marketplace that connects members
+  with registered dietitians and nutritionists and handles the insurance billing so
+  nutrition counseling is covered — often at little or no out-of-pocket cost. The platform
+  offers telehealth consultations, personalized meal planning, and support for chronic
+  condition management, backed by iOS and Android apps and a member help center. Fay
+  reports 4,000+ registered dietitians, 700+ accepted insurance plans, and 100,000+
+  members. It is backed by Forerunner Ventures and General Catalyst and is tracked in
+  the API Evangelist network as a portfolio-lead company profile; Fay publishes no public
+  developer or API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/fay/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Health
+- Healthcare
+- Nutrition
+- Dietitian
+- Telehealth
+- Insurance
+- Digital Health
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +51,20 @@ maintainers:
 common:
 - type: Website
   url: https://faynutrition.com
+- type: Blog
+  url: https://www.faynutrition.com/blog
+- type: Support
+  url: https://help.faynutrition.com
+- type: SignUp
+  url: https://signup.faynutrition.com/quiz
+- type: PrivacyPolicy
+  url: https://www.faynutrition.com/privacy-policy
+- type: TermsOfService
+  url: https://www.faynutrition.com/terms
+- type: DomainSecurity
+  url: security/fay-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
